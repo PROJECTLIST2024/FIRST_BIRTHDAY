@@ -20,10 +20,10 @@ kakaoShare.addEventListener('click',function(){
         content: {
           title: '이서의 돌잔치에 초대합니다 🎂',
           description: '2025년 02월 01일 (토) 오후 1시 30분',
-          imageUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY.github.io/images/01_section.jpg",
+          imageUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/images/01_section.jpg",
           link: {
-            mobileWebUrl: window.location.href,
-            webUrl: window.location.href,
+            mobileWebUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/",
+            webUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/",
           },
         },
 
@@ -31,8 +31,8 @@ kakaoShare.addEventListener('click',function(){
           {
             title: '자세히 보기',
             link: {
-              mobileWebUrl: window.location.href,
-              webUrl: window.location.href,
+              mobileWebUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/",
+              webUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/",
             },
           },
         ],
