@@ -23,7 +23,7 @@ kakaoShare.addEventListener('click',function(){
           imageUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/images/01_section.jpg",
           link: {
             mobileWebUrl: window.location.origin + "/FIRST_BIRTHDAY/",
-            webUrl: window.location.origin + "/FIRST_BIRTHDAY/",,
+            webUrl: window.location.origin + "/FIRST_BIRTHDAY/",
           },
         },
 
