@@ -22,8 +22,8 @@ kakaoShare.addEventListener('click',function(){
           description: '2025년 02월 01일 (토) 오후 1시 30분',
           imageUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/images/01_section.jpg",
           link: {
-            mobileWebUrl: window.location.origin + "/FIRST_BIRTHDAY/",
-            webUrl: window.location.origin + "/FIRST_BIRTHDAY/",
+            mobileWebUrl: `intent:${window.location.origin}/FIRST_BIRTHDAY/;end`,
+            webUrl: `intent:${window.location.origin}/FIRST_BIRTHDAY/;end`,
           },
         },
 
@@ -31,8 +31,8 @@ kakaoShare.addEventListener('click',function(){
           {
             title: '자세히 보기',
             link: {
-              mobileWebUrl: window.location.origin + "/FIRST_BIRTHDAY/",
-              webUrl: window.location.origin + "/FIRST_BIRTHDAY/",
+              mobileWebUrl: `intent:${window.location.origin}/FIRST_BIRTHDAY/;end`,
+              webUrl: `intent:${window.location.origin}/FIRST_BIRTHDAY/;end`,
             },
           },
         ],
