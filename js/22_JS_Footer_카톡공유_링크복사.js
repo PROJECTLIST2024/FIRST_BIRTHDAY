@@ -10,7 +10,8 @@
 const kakaoShare =  document.querySelector('.kakao-share');
 kakaoShare.addEventListener('click',function(){
 
-    console.log("window.location.origin",window.location.origin);
+    const currentUrl = window.location.href;
+    console.log("currentUrl",currentUrl);
  
     // 직접 버튼 사용하는 메시지 탬플릿(위치)
     Kakao.Share.sendDefault({
@@ -22,8 +23,8 @@ kakaoShare.addEventListener('click',function(){
           description: '2025년 02월 01일 (토) 오후 1시 30분',
           imageUrl: "https://projectlist2024.github.io/FIRST_BIRTHDAY/images/01_section.jpg",
           link: {
-            mobileWebUrl: window.location.origin + "/FIRST_BIRTHDAY/",
-            webUrl: window.location.origin + "/FIRST_BIRTHDAY/",
+            mobileWebUrl: currentUrl,
+            webUrl: currentUrl,
           },
         },
 
@@ -31,8 +32,8 @@ kakaoShare.addEventListener('click',function(){
           {
             title: '자세히 보기',
             link: {
-              mobileWebUrl: window.location.origin + "/FIRST_BIRTHDAY/",
-              webUrl: window.location.origin + "/FIRST_BIRTHDAY/",
+              mobileWebUrl: currentUrl,
+              webUrl: currentUrl,
             },
           },
         ],
